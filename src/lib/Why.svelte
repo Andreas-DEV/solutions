@@ -98,18 +98,3 @@
     </div>
 </main>
 
-<style lang="scss">
-    #center {
-        align-items: center;
-        gap: 0.2rem;
-    }
-
-    li {
-        color: whitesmoke;
-    }
-
-    li:hover {
-        cursor: pointer;
-        color: white;
-    }
-</style>
