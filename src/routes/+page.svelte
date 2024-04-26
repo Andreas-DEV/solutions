@@ -8,7 +8,7 @@
 
 <Header />
 <Hero />
-<Why/>
+<!-- <Why/> -->
 
 <h5 class="text-center text-xl my-3">Lidt i dybden</h5>
 <Accordion/>
