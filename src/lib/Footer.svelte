@@ -4,7 +4,7 @@ import tp from "$lib/assets/Trustpilot_logo.png"
 </script>
 
 <!-- ========== FOOTER ========== -->
-<footer class="footer py-10 flex justify-center w-full bg-transparent">
+<footer class="py-10 flex justify-center w-full bg-transparent">
   <!-- Grid -->
   <div class="text-center">
     <div>
@@ -16,11 +16,7 @@ import tp from "$lib/assets/Trustpilot_logo.png"
       <p class="text-gray-500">We're part of the <a class="font-semibold text-blue-600 hover:text-blue-700 dark:text-blue-500 dark:hover:text-blue-400" href="#">OfficeBoost</a> family.</p>
       <p class="text-gray-500">© 2024 Grønbech Solutions. All rights reserved.</p>
     </div>
-<!-- 
-    <div class="trustpilot-widget" data-locale="da-DK" data-template-id="5419b6a8b0d04a076446a9ad" data-businessunit-id="53286038000064000578694c" data-style-height="24px" data-style-width="100%" data-theme="light" data-min-review-count="10" data-style-alignment="center">
-      <a href="https://dk.trustpilot.com/review/www.officeboost.dk" target="_blank" rel="noopener">Trustpilot</a>
-    </div> -->
-    <!-- End Social Brands -->
+
   </div>
   <!-- End Grid -->
 </footer>
