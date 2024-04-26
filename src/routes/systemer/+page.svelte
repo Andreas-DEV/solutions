@@ -28,7 +28,7 @@ import Footer from "$lib/Footer.svelte";
 
 
 <main class="container">
-
+    
       
 </main>
 
