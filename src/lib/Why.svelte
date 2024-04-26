@@ -98,7 +98,7 @@
     </div>
 </main>
 
-<style lang="scss">
+<style>
     #center {
         align-items: center;
         gap: 0.2rem;
