@@ -1,4 +1,4 @@
-<script lang="ts">
+<!-- <script lang="ts">
     import { Card } from "flowbite-svelte";
 </script>
 
@@ -113,3 +113,4 @@
         color: white;
     }
 </style>
+ -->
