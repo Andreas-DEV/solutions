@@ -21,25 +21,27 @@
     </div>
 </section>
 
-<main>
-    <section>
+<main class="flex gap-14 md:gap-28 flex-col p-10">
+    
+    <section class="flex flex-col md:flex-row w-full gap-10 md:gap-15 justify-center items-center">
         <a href="https://dansksuperrally.dk" target="_blank">
-            <img src={dsrSnapshot} alt="Dansk Super Rally">
+            <img class="w-[250px] md:w-[375px] rounded-lg border border-black hover:drop-shadow-md" src={dsrSnapshot} alt="Dansk Super Rally">
         </a>
         <div>
 
-            <h2 >DSR <a href="https://dansksuperrally.dk" target="_blank">Dansksuperrally.dk</a></h2>
-            <p>DSR-hjemmesiden holder sig opdateret på alt det seneste, <br> med overblik over løb, resultater og nyheder i rally verdenen.</p>
+            <h2 class="text-lg">DSR <a class="text-sm link hover:underline text-[blue]" href="https://dansksuperrally.dk" target="_blank">Dansksuperrally.dk</a></h2>
+            <p class="text-sm md:text-lg">DSR-hjemmesiden holder sig opdateret på alt det seneste, <br> med overblik over løb, resultater og nyheder i rally verdenen.</p>
         </div>
     </section>
-    <section>
-        <div>
-            <h2>Knapsmindefonden <a href="https://dansksuperrally.dk" target="_blank">Knapsmindefonden.dk</a></h2>
-            <p>Knapsmindefonden' hjemmesiden er en one page side, dedikeret <br> til at fortælle om Knapsmindefonden' arbejde, og de initiativer de støtter.</p>
 
+    <section class="flex flex-col-reverse md:flex-row w-full gap-10 md:gap-5 justify-center items-center">
+        <div>
+            
+            <h2 class="text-lg">Knapsmindefonden <a class="text-sm link hover:underline text-[blue]" href="https://knapsmindefonden.dk/" target="_blank">Knapsmindefonden.dk</a></h2>
+            <p class="text-sm md:text-lg">Knapsmindefonden' hjemmesiden er en one page side, dedikeret <br> til at fortælle om Knapsmindefonden' arbejde, og de initiativer de støtter.</p>
         </div>
         <a href="https://knapsmindefonden.dk/" target="_blank">
-            <img src={kmfSnapshot} alt="Knapsmindefonden">
+            <img class="w-[250px] md:w-[375px] rounded-lg border border-black hover:drop-shadow-md" src={kmfSnapshot} alt="Knapsmindefonden">
         </a>
     </section>
 </main>

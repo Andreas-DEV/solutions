@@ -35,7 +35,7 @@
     action="#" method="POST" on:submit={()=> {status = "Din E-mail er blevet sendt."}}
   >
   {#if status === "Din E-mail er blevet sendt."}
-    <Toast class="w-[75%] mx-auto" dismissable={false} contentClass="flex space-x-4 rtl:space-x-reverse divide-x rtl:divide-x-reverse divide-gray-200 dark:divide-gray-700">
+    <Toast class="w-[75%] mx-auto absolute bottom-10 left-10" dismissable={false} contentClass="flex space-x-4 rtl:space-x-reverse divide-x rtl:divide-x-reverse divide-gray-200 dark:divide-gray-700">
       <PaperPlaneOutline class="w-5 h-5 text-primary-600 dark:text-primary-500 rotate-45" />
       <div class="ps-4 text-sm font-normal">{status}</div>
     </Toast>
