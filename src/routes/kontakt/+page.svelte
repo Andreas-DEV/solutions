@@ -31,7 +31,7 @@
   </section>
   
   <form
-    class="container flex flex-col space-y-6 w-[800px] mx-auto mt-16 mb-[4.7rem]"
+    class="container flex flex-col space-y-6 w-[375px] md:w-[800px] px-5 mx-auto mt-16 mb-[4.7rem]"
     action="#" method="POST" on:submit={()=> {status = "Din E-mail er blevet sendt."}}
   >
   {#if status === "Din E-mail er blevet sendt."}
